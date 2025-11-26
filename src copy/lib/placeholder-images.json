@@ -1,0 +1,262 @@
+{
+  "placeholderImages": [
+    {
+      "id": "noir-voyage-bottle",
+      "description": "Front view of Noir Voyage perfume bottle",
+      "imageUrl": "https://images.unsplash.com/photo-1615160460524-432433ba1b8f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwZXJmdW1lJTIwYm90dGxlfGVufDB8fHx8MTc2NDA2NDkzMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "perfume bottle"
+    },
+    {
+      "id": "noir-voyage-shot",
+      "description": "Lifestyle shot of Noir Voyage perfume",
+      "imageUrl": "https://images.unsplash.com/photo-1680789527271-f1fc1528f27e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwZXJmdW1lJTIwbGlmZXN0eWxlfGVufDB8fHx8MTc2NDEwMzEwNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "perfume lifestyle"
+    },
+    {
+      "id": "silk-enigma-bottle",
+      "description": "Front view of Silk Enigma perfume bottle",
+      "imageUrl": "https://images.unsplash.com/photo-1585218334450-afcf929da36e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwZXJmdW1lJTIwYm90dGxlfGVufDB8fHx8MTc2NDA2NDkzMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "perfume bottle"
+    },
+    {
+      "id": "silk-enigma-shot",
+      "description": "Lifestyle shot of Silk Enigma perfume on silk fabric",
+      "imageUrl": "https://images.unsplash.com/photo-1594734415578-00fc9540929b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzaWxrJTIwZmFicmljfGVufDB8fHx8MTc2NDA4NjU1OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "silk fabric"
+    },
+    {
+      "id": "aurum-rush-bottle",
+      "description": "Front view of Aurum Rush perfume bottle",
+      "imageUrl": "https://images.unsplash.com/photo-1594125311687-3b1b3eafa9f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxwZXJmdW1lJTIwYm90dGxlfGVufDB8fHx8MTc2NDA2NDkzMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "perfume bottle"
+    },
+    {
+      "id": "aurum-rush-shot",
+      "description": "Abstract shot representing Aurum Rush with golden splashes",
+      "imageUrl": "https://images.unsplash.com/photo-1682778964790-b2fa177b5e45?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxnb2xkJTIwc3BsYXNofGVufDB8fHx8MTc2NDEwODYxNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "gold splash"
+    },
+    {
+      "id": "veridian-light-bottle",
+      "description": "Front view of Veridian Light perfume bottle",
+      "imageUrl": "https://images.unsplash.com/photo-1585218334450-afcf929da36e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwZXJmdW1lJTIwYm90dGxlfGVufDB8fHx8MTc2NDA2NDkzMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "perfume bottle"
+    },
+    {
+      "id": "veridian-light-shot",
+      "description": "Lifestyle shot of Veridian Light in a rainforest setting",
+      "imageUrl": "https://images.unsplash.com/photo-1646308070537-93e4b51f41d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxyYWluZm9yZXN0JTIwbGVhdmVzfGVufDB8fHx8MTc2NDEwODYxNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "rainforest leaves"
+    },
+    {
+      "id": "lunar-dust-bottle",
+      "description": "Front view of Lunar Dust perfume bottle",
+      "imageUrl": "https://images.unsplash.com/photo-1680607622631-1e243ddd6782?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cGVyZnVtZSUyMGJvdHRsZXxlbnwwfHx8fDE3NjQwNjQ5MzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "perfume bottle"
+    },
+    {
+      "id": "lunar-dust-shot",
+      "description": "Abstract shot representing Lunar Dust with a moon surface texture",
+      "imageUrl": "https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxtb29uJTIwc3VyZmFjZXxlbnwwfHx8fDE3NjQxMDg2MTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "moon surface"
+    },
+    {
+      "id": "eau-de-plage-bottle",
+      "description": "Front view of Eau de Plage perfume bottle",
+      "imageUrl": "https://images.unsplash.com/photo-1594035910387-fea47794261f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwZXJmdW1lJTIwYm90dGxlfGVufDB8fHx8MTc2NDA2NDkzMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "perfume bottle"
+    },
+    {
+      "id": "eau-de-plage-shot",
+      "description": "Lifestyle shot of Eau de Plage on a beach",
+      "imageUrl": "https://images.unsplash.com/photo-1583364486579-52ecae54876e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YmVhY2glMjB3YXZlfGVufDB8fHx8MTc2NDEwODYxNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "beach wave"
+    },
+    {
+      "id": "red-velvet-oud-bottle",
+      "description": "Front view of Red Velvet Oud perfume bottle",
+      "imageUrl": "https://images.unsplash.com/photo-1680607622631-1e243ddd6782?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cGVyZnVtZSUyMGJvdHRsZXxlbnwwfHx8fDE3NjQwNjQ5MzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "perfume bottle"
+    },
+    {
+      "id": "red-velvet-oud-shot",
+      "description": "Abstract shot representing Red Velvet Oud with red velvet texture",
+      "imageUrl": "https://images.unsplash.com/photo-1568535904307-f48b760a39f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxyZWQlMjB2ZWx2ZXR8ZW58MHx8fHwxNzY0MTA4NjE0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "red velvet"
+    },
+    {
+      "id": "violet-haze-bottle",
+      "description": "Front view of Violet Haze perfume bottle",
+      "imageUrl": "https://images.unsplash.com/photo-1541643600914-78b084683601?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwZXJmdW1lJTIwYm90dGxlfGVufDB8fHx8MTc2NDA2NDkzMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "perfume bottle"
+    },
+    {
+      "id": "violet-haze-shot",
+      "description": "Abstract shot representing Violet Haze with purple smoke",
+      "imageUrl": "https://images.unsplash.com/photo-1508898578281-774ac4893c0c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwdXJwbGUlMjBzbW9rZXxlbnwwfHx8fDE3NjQxMDg2MTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "purple smoke"
+    },
+    {
+      "id": "hero-banner-1",
+      "description": "Hero banner image for OZNIOR",
+      "imageUrl": "https://images.unsplash.com/photo-1680503504076-e5c61901c36d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwZXJmdW1lJTIwc3BvdGxpZ2h0fGVufDB8fHx8MTc2NDEwODYxNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "perfume spotlight"
+    },
+    {
+      "id": "oznior-hero-social",
+      "description": "Social media sharing image for OZNIOR",
+      "imageUrl": "https://images.unsplash.com/photo-1739190940453-20900e9d18fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxsdXh1cnklMjBwZXJmdW1lfGVufDB8fHx8MTc2NDA2NDkzMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "luxury perfume"
+    },
+    {
+      "id": "about-philosophy",
+      "description": "Image for about page philosophy section",
+      "imageUrl": "https://images.unsplash.com/photo-1512998844734-cd2cca565822?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YWJzdHJhY3QlMjBhcmNoaXRlY3R1cmV8ZW58MHx8fHwxNzY0MDI0Njc4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract architecture"
+    },
+    {
+      "id": "solar-citron-bottle",
+      "description": "Front view of Solar Citron perfume bottle",
+      "imageUrl": "https://images.unsplash.com/photo-1557173635-c5f01b004033?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwZXJmdW1lJTIwYm90dGxlJTIwbGVtb258ZW58MHx8fHwxNzY0MTk0MjU5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "perfume bottle"
+    },
+    {
+      "id": "solar-citron-shot",
+      "description": "Lifestyle shot of lemons for Solar Citron",
+      "imageUrl": "https://images.unsplash.com/photo-1608422334835-4343b4695955?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsZW1vbnMlMjBvcmNoYXJkfGVufDB8fHx8MTc2NDE5NDI1OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "lemon orchard"
+    },
+    {
+      "id": "midnight-oud-bottle",
+      "description": "Front view of Midnight Oud perfume bottle",
+      "imageUrl": "https://images.unsplash.com/photo-1554224095-80afee849524?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkYXJrJTIwcGVyZnVtZSUyMGJvdHRsZXxlbnwwfHx8fDE3NjQxOTQyNTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dark perfume"
+    },
+    {
+      "id": "midnight-oud-shot",
+      "description": "Abstract shot for Midnight Oud",
+      "imageUrl": "https://images.unsplash.com/photo-1554224095-80afee849524?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzbW9rZSUyMGFuZCUyMHdoaXNrZXl8ZW58MHx8fHwxNzY0MTk0MjU5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "smoke whiskey"
+    },
+    {
+      "id": "petal-cloud-bottle",
+      "description": "Front view of Petal Cloud perfume bottle",
+      "imageUrl": "https://images.unsplash.com/photo-1587023340788-519d45ab4376?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwaW5rJTIwcGVyZnVtZSUyMGJvdHRsZXxlbnwwfHx8fDE3NjQxOTQyNTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pink perfume"
+    },
+    {
+      "id": "petal-cloud-shot",
+      "description": "Lifestyle shot for Petal Cloud",
+      "imageUrl": "https://images.unsplash.com/photo-1565538531757-d22437c35544?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwaW5rJTIwcGVvbnl8ZW58MHx8fHwxNzY0MTk0MjU5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pink peony"
+    },
+    {
+      "id": "ember-spice-bottle",
+      "description": "Front view of Ember Spice perfume bottle",
+      "imageUrl": "https://images.unsplash.com/photo-1598343171348-7442651426b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhbWJlciUyMHBlcmZ1bWUlMjBib3R0bGV8ZW58MHx8fHwxNzY0MTk0MjU5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "amber perfume"
+    },
+    {
+      "id": "ember-spice-shot",
+      "description": "Lifestyle shot for Ember Spice",
+      "imageUrl": "https://images.unsplash.com/photo-1549998159-a47734483751?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaW5uYW1vbiUyMHN0aWNrc3xlbnwwfHx8fDE3NjQxOTQyNTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cinnamon sticks"
+    },
+    {
+      "id": "aqua-myst-bottle",
+      "description": "Front view of Aqua Myst perfume bottle",
+      "imageUrl": "https://images.unsplash.com/photo-1613545938833-2a8ef6865239?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxibHVlJTIwcGVyZnVtZSUyMGJvdHRsZXxlbnwwfHx8fDE3NjQxOTQyNTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "blue perfume"
+    },
+    {
+      "id": "aqua-myst-shot",
+      "description": "Lifestyle shot for Aqua Myst",
+      "imageUrl": "https://images.unsplash.com/photo-1542275929-55866b36f753?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzZWElMjBzbW9rZXxlbnwwfHx8fDE3NjQxOTQyNTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sea spray"
+    },
+    {
+      "id": "ruby-flame-bottle",
+      "description": "Front view of Ruby Flame perfume bottle",
+      "imageUrl": "https://images.unsplash.com/photo-1594035910387-fea47794261f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyZWQlMjBwZXJmdW1lJTIwYm90dGxlfGVufDB8fHx8MTc2NDE5NDI1OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "red perfume"
+    },
+    {
+      "id": "ruby-flame-shot",
+      "description": "Lifestyle shot for Ruby Flame",
+      "imageUrl": "https://images.unsplash.com/photo-1528820399088-3c6d5b4d4b3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGVycmllc3xlbnwwfHx8fDE3NjQxOTQyNTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cherries"
+    },
+    {
+      "id": "forest-sanctum-bottle",
+      "description": "Front view of Forest Sanctum perfume bottle",
+      "imageUrl": "https://images.unsplash.com/photo-1624432322309-3051a3648e0c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxncmVlbiUyMHBlcmZ1bWUlMjBib3R0bGV8ZW58MHx8fHwxNzY0MTk0MjU5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "green perfume"
+    },
+    {
+      "id": "forest-sanctum-shot",
+      "description": "Lifestyle shot for Forest Sanctum",
+      "imageUrl": "https://images.unsplash.com/photo-1500332971920-a8acea869735?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxKYXBhbmVzZSUyMGZvcmVzdHxlbnwwfHx8fDE3NjQxOTQyNTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Japanese forest"
+    },
+    {
+      "id": "golden-hour-bottle",
+      "description": "Front view of Golden Hour perfume bottle",
+      "imageUrl": "https://images.unsplash.com/photo-1523293182-7C55266b3356?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxnb2xkZW4lMjBwZXJmdW1lJTIwYm90dGxlfGVufDB8fHx8MTc2NDE5NDI1OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "golden perfume"
+    },
+    {
+      "id": "golden-hour-shot",
+      "description": "Lifestyle shot for Golden Hour",
+      "imageUrl": "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxnb2xkZW4lMjBzdW5zZXR8ZW58MHx8fHwxNzY0MTk0MjU5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "golden sunset"
+    },
+    {
+      "id": "concrete-jungle-bottle",
+      "description": "Front view of Concrete Jungle perfume bottle",
+      "imageUrl": "https://images.unsplash.com/photo-1624432322309-3051a3648e0c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxncmV5JTIwcGVyZnVtZSUyMGJvdHRsZXxlbnwwfHx8fDE3NjQxOTQyNTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "grey perfume"
+    },
+    {
+      "id": "concrete-jungle-shot",
+      "description": "Lifestyle shot for Concrete Jungle",
+      "imageUrl": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaXR5JTIwc3RyZWV0JTIwcmFpbnxlbnwwfHx8fDE3NjQxOTQyNTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "city street"
+    },
+    {
+      "id": "ivory-musk-bottle",
+      "description": "Front view of Ivory Musk perfume bottle",
+      "imageUrl": "https://images.unsplash.com/photo-1587023340788-519d45ab4376?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3aGl0ZSUyMHBlcmZ1bWUlMjBib3R0bGV8ZW58MHx8fHwxNzY0MTk0MjU5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "white perfume"
+    },
+    {
+      "id": "ivory-musk-shot",
+      "description": "Lifestyle shot for Ivory Musk",
+      "imageUrl": "https://images.unsplash.com/photo-1501127122-f385ca6ddd9e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3aGl0ZSUyMGZhdGhlcnN8ZW58MHx8fHwxNzY0MTk0MjU5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "white feathers"
+    },
+    {
+      "id": "saffron-suede-bottle",
+      "description": "Front view of Saffron Suede perfume bottle",
+      "imageUrl": "https://images.unsplash.com/photo-1598343171348-7442651426b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxvcmFuZ2UlMjBwZXJmdW1lJTIwYm90dGxlfGVufDB8fHx8MTc2NDE5NDI1OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "orange perfume"
+    },
+    {
+      "id": "saffron-suede-shot",
+      "description": "Lifestyle shot for Saffron Suede",
+      "imageUrl": "https://images.unsplash.com/photo-1595133504008-535787a228c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsZWF0aGVyJTIwdGV4dHVyZXxlbnwwfHx8fDE3NjQxOTQyNTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "leather texture"
+    },
+    {
+      "id": "chai-epice-bottle",
+      "description": "Front view of Chai Épicé perfume bottle",
+      "imageUrl": "https://images.unsplash.com/photo-1523293182-7C55266b3356?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhbWJlciUyMHBlcmZ1bWUlMjBib3R0bGV8ZW58MHx8fHwxNzY0MTk0MjU5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "amber perfume"
+    },
+    {
+      "id": "chai-epice-shot",
+      "description": "Lifestyle shot for Chai Épicé",
+      "imageUrl": "https://images.unsplash.com/photo-1559231289-751d68324f34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGFpJTIwbGF0dGV8ZW58MHx8fHwxNzY0MTk0MjU5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chai latte"
+    }
+  ]
+}

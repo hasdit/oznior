@@ -1,0 +1,529 @@
+{
+  "entities": {
+    "User": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "title": "User",
+      "type": "object",
+      "description": "Represents a user of the OZNIOR e-commerce platform.",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the User entity (matches Firebase Auth UID)."
+        },
+        "name": {
+          "type": "string",
+          "description": "The user's full name."
+        },
+        "email": {
+          "type": "string",
+          "description": "The user's email address.",
+          "format": "email"
+        },
+        "role": {
+          "type": "string",
+          "description": "The user's role (e.g., 'user', 'admin').",
+          "enum": ["user", "admin"],
+          "default": "user"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "email",
+        "role"
+      ]
+    },
+    "Product": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "title": "Product",
+      "type": "object",
+      "description": "Represents a product (fragrance) in the OZNIOR e-commerce platform.",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the Product entity."
+        },
+        "title": {
+          "type": "string",
+          "description": "The title of the product."
+        },
+        "slug": {
+          "type": "string",
+          "description": "The URL-friendly slug of the product."
+        },
+        "description": {
+          "type": "string",
+          "description": "A detailed description of the product."
+        },
+        "shortDescription": {
+          "type": "string",
+          "description": "A brief description of the product, suitable for meta descriptions."
+        },
+        "price": {
+          "type": "number",
+          "description": "The price of the product in USD."
+        },
+        "comparePrice": {
+          "type": "number",
+          "description": "The original price of the product, used to display sale prices."
+        },
+        "sku": {
+          "type": "string",
+          "description": "The stock keeping unit for the product."
+        },
+        "volumeMl": {
+          "type": "number",
+          "description": "The volume of the product in milliliters."
+        },
+        "images": {
+          "type": "array",
+          "description": "An array of URLs pointing to product images.",
+          "items": {
+            "type": "string"
+          }
+        },
+        "categories": {
+          "type": "array",
+          "description": "An array of categories the product belongs to.",
+          "items": {
+            "type": "string"
+          }
+        },
+        "tags": {
+          "type": "array",
+          "description": "An array of tags associated with the product.",
+          "items": {
+            "type": "string"
+          }
+        },
+        "fragranceNotes": {
+          "type": "array",
+          "description": "An array of fragrance notes associated with the product.",
+          "items": {
+            "type": "string"
+          }
+        },
+        "featured": {
+          "type": "boolean",
+          "description": "A flag indicating whether the product is featured."
+        },
+        "inventoryNumber": {
+          "type": "number",
+          "description": "The number of units of the product in stock."
+        },
+        "averageRating": {
+            "type": "number",
+            "description": "The average rating of the product from customer reviews."
+        },
+        "reviewCount": {
+            "type": "number",
+            "description": "The number of customer reviews for the product."
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "slug",
+        "description",
+        "shortDescription",
+        "price",
+        "sku",
+        "volumeMl",
+        "images"
+      ]
+    },
+    "Order": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "title": "Order",
+      "type": "object",
+      "description": "Represents an order placed on the OZNIOR e-commerce platform.",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the Order entity."
+        },
+        "userId": {
+          "type": "string",
+          "description": "Reference to User. (Relationship: User 1:N Order)"
+        },
+        "name": {
+            "type": "string",
+            "description": "Customer's full name."
+        },
+        "mobile": {
+            "type": "string",
+            "description": "Customer's mobile number (e.g., +88017XXXXXXXX)."
+        },
+        "address": {
+            "type": "string",
+            "description": "Customer's full shipping address."
+        },
+        "items": {
+          "type": "array",
+          "description": "An array of order items, each referencing a product.",
+          "items": {
+            "$ref": "#/backend/entities/OrderItem"
+          }
+        },
+        "total": {
+          "type": "number",
+          "description": "The total amount of the order."
+        },
+        "subtotal": {
+          "type": "number",
+          "description": "The subtotal of the order before shipping fees."
+        },
+        "shippingFee": {
+          "type": "number",
+          "description": "The shipping fee for the order."
+        },
+        "status": {
+          "type": "string",
+          "description": "The status of the order (e.g., 'Pending', 'Processing', 'Shipped', 'Delivered', 'Cancelled')."
+        },
+        "paymentMethod": {
+          "type": "string",
+          "enum": ["bkash", "nagad", "rocket", "upay"],
+          "description": "The payment method used for the order (e.g., 'bkash', 'nagad', 'rocket', 'upay')."
+        },
+        "last4": {
+            "type": "string",
+            "description": "The last 4 digits of the sender's mobile number.",
+            "pattern": "^\\d{4}$"
+        },
+        "createdAt": {
+            "type": "string",
+            "format": "date-time",
+            "description": "The timestamp when the order was created."
+        },
+        "source": {
+            "type": "string",
+            "description": "The source of the order (e.g., 'web')."
+        }
+      },
+      "required": [
+        "id",
+        "userId",
+        "name",
+        "mobile",
+        "address",
+        "items",
+        "total",
+        "subtotal",
+        "shippingFee",
+        "status",
+        "paymentMethod",
+        "last4",
+        "createdAt",
+        "source"
+      ]
+    },
+    "OrderItem": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "title": "OrderItem",
+      "type": "object",
+      "description": "Represents an item within an order. This allows for tracking individual products within an order.",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the OrderItem entity."
+        },
+        "orderId": {
+          "type": "string",
+          "description": "Reference to Order. (Relationship: Order 1:N OrderItem)"
+        },
+        "productId": {
+          "type": "string",
+          "description": "Reference to Product. (Relationship: Product 1:N OrderItem)"
+        },
+        "title": {
+          "type": "string",
+          "description": "The name of the product as it was at the time of the order.  Helpful if product names change."
+        },
+        "qty": {
+          "type": "number",
+          "description": "The quantity of the product ordered."
+        },
+        "price": {
+          "type": "number",
+          "description": "The price of the product at the time of the order.  Helpful if prices change."
+        }
+      },
+      "required": [
+        "id",
+        "orderId",
+        "productId",
+        "title",
+        "qty",
+        "price"
+      ]
+    },
+    "Address": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "title": "Address",
+      "type": "object",
+      "description": "Represents a shipping address associated with an order.",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the Address entity."
+        },
+        "orderId": {
+          "type": "string",
+          "description": "Reference to Order. (Relationship: Order 1:1 Address)"
+        },
+        "name": {
+          "type": "string",
+          "description": "The recipient's full name."
+        },
+        "email": {
+          "type": "string",
+          "description": "The recipient's email address."
+        },
+        "street": {
+          "type": "string",
+          "description": "The street address."
+        },
+        "city": {
+          "type": "string",
+          "description": "The city."
+        },
+        "postalCode": {
+          "type": "string",
+          "description": "The postal code."
+        },
+        "country": {
+          "type": "string",
+          "description": "The country."
+        },
+        "phone": {
+          "type": "string",
+          "description": "The phone number."
+        }
+      },
+      "required": [
+        "id",
+        "orderId",
+        "name",
+        "email",
+        "street",
+        "city",
+        "postalCode",
+        "country"
+      ]
+    },
+    "Blog": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "title": "Blog",
+      "type": "object",
+      "description": "Represents a blog post on the OZNIOR Journal.",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the Blog entity."
+        },
+        "title": {
+          "type": "string",
+          "description": "The title of the blog post."
+        },
+        "slug": {
+          "type": "string",
+          "description": "The URL-friendly slug for the blog post."
+        },
+        "excerpt": {
+          "type": "string",
+          "description": "A short summary of the blog post."
+        },
+        "content": {
+          "type": "string",
+          "description": "The full content of the blog post in Markdown format."
+        },
+        "imageUrl": {
+          "type": "string",
+          "format": "uri",
+          "description": "The URL of the main image for the blog post."
+        },
+        "author": {
+          "type": "string",
+          "description": "The author of the blog post."
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "The timestamp when the blog post was created."
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "slug",
+        "excerpt",
+        "content",
+        "imageUrl",
+        "author",
+        "createdAt"
+      ]
+    },
+    "Review": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "title": "Review",
+        "type": "object",
+        "description": "Represents a customer review for a product.",
+        "properties": {
+            "id": { "type": "string", "description": "Unique ID for the review." },
+            "productId": { "type": "string", "description": "The ID of the product being reviewed." },
+            "productTitle": { "type": "string", "description": "The title of the product being reviewed." },
+            "userId": { "type": "string", "description": "The ID of the user who wrote the review." },
+            "userName": { "type": "string", "description": "The name of the user who wrote the review." },
+            "rating": { "type": "number", "description": "The star rating from 1 to 5." },
+            "text": { "type": "string", "description": "The content of the review." },
+            "createdAt": { "type": "string", "format": "date-time", "description": "Timestamp of when the review was created." },
+            "status": { "type": "string", "enum": ["pending", "approved"], "description": "The moderation status of the review." }
+        },
+        "required": ["id", "productId", "userId", "userName", "rating", "text", "createdAt", "status"]
+    },
+    "SiteContent": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "title": "Site Content",
+      "type": "object",
+      "description": "A singleton entity for storing editable content across the website, like homepage text blocks.",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Should always be a fixed value like 'homepage' to ensure it's a single document."
+        },
+        "hero": {
+          "type": "object",
+          "properties": {
+            "headline": { "type": "string" },
+            "subline": { "type": "string" },
+            "ctaText": { "type": "string" }
+          }
+        },
+        "scentQuiz": {
+          "type": "object",
+          "properties": {
+            "headline": { "type": "string" },
+            "subline": { "type": "string" },
+            "ctaText": { "type": "string" }
+          }
+        },
+        "ourStory": {
+          "type": "object",
+          "properties": {
+            "headline": { "type": "string" },
+            "subline": { "type": "string" },
+            "ctaText": { "type": "string" }
+          }
+        }
+      },
+      "required": ["id", "hero", "scentQuiz", "ourStory"]
+    },
+    "Page": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "title": "Page",
+      "type": "object",
+      "description": "Represents a static page with editable content (e.g., 'about', 'terms').",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the Page (e.g., 'about', 'terms')."
+        },
+        "title": {
+          "type": "string",
+          "description": "The main title of the page, used for H1 and metadata."
+        },
+        "content": {
+          "type": "string",
+          "description": "The full content of the page in Markdown format."
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "The timestamp when the page was last updated."
+        }
+      },
+      "required": ["id", "title", "content", "updatedAt"]
+    }
+  },
+  "auth": {
+    "providers": [
+      "password",
+      "anonymous"
+    ]
+  },
+  "firestore": {
+    "structure": [
+      {
+        "path": "/users/{userId}",
+        "definition": {
+          "entityName": "User",
+          "schema": {
+            "$ref": "#/backend/entities/User"
+          },
+          "description": "Stores public user profile information."
+        }
+      },
+      {
+        "path": "/orders/{orderId}",
+        "definition": {
+          "entityName": "Order",
+          "schema": {
+            "$ref": "#/backend/entities/Order"
+          },
+          "description": "Stores order data."
+        }
+      },
+      {
+        "path": "/products/{productId}",
+        "definition": {
+          "entityName": "Product",
+          "schema": {
+            "$ref": "#/backend/entities/Product"
+          },
+          "description": "Stores product data."
+        }
+      },
+      {
+        "path": "/reviews/{reviewId}",
+        "definition": {
+            "entityName": "Review",
+            "schema": {
+                "$ref": "#/backend/entities/Review"
+            },
+            "description": "Stores all product reviews."
+        }
+      },
+      {
+        "path": "/blogs/{blogId}",
+        "definition": {
+          "entityName": "Blog",
+          "schema": {
+            "$ref": "#/backend/entities/Blog"
+          },
+          "description": "Stores blog post data."
+        }
+      },
+      {
+        "path": "/siteContent/{contentId}",
+        "definition": {
+          "entityName": "SiteContent",
+          "schema": {
+            "$ref": "#/backend/entities/SiteContent"
+          },
+          "description": "Stores editable site content."
+        }
+      },
+      {
+        "path": "/pages/{pageId}",
+        "definition": {
+          "entityName": "Page",
+          "schema": {
+            "$ref": "#/backend/entities/Page"
+          },
+          "description": "Stores editable page content for static pages like 'about' or 'terms'."
+        }
+      }
+    ]
+  }
+}
